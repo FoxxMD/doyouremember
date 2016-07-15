@@ -1,4 +1,55 @@
-#content {
+.content {
     font-family: Arial, sans-serif;
-    font-size: 5em;
+}
+
+body {
+    font-size: 4em;
+    white-space: nowrap;
+}
+
+#sub {
+    font-size:0.5em;
+}
+
+@media (max-width: 1400px) {
+    body {
+        font-size: 350%;
+    }
+}
+
+@media (max-width: 1200px) {
+    body {
+        font-size: 300%;
+    }
+}
+
+@media (max-width: 1200px) {
+    body {
+        font-size: 275%;
+    }
+}
+
+@media (max-width: 1000px) {
+    body {
+        font-size: 250%;
+    }
+}
+
+@media (max-width: 800px) {
+    body {
+        font-size: 200%;
+    }
+}
+
+
+@media (max-width: 600px) {
+    body {
+        font-size: 150%;
+    }
+}
+
+@media (max-width: 500px){
+    body {
+        font-size: 100%;
+    }
 }
