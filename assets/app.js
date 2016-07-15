@@ -1,6 +1,5 @@
 function shouldDance($time) {
-    //var $badeya = moment().month(8).date(21);
-    var $badeya = moment().month(6).date(15);
+    var $badeya = moment().month(8).date(21);
     return $time.isSame($badeya, 'day');
 }
 
